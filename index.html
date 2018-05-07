@@ -1,0 +1,130 @@
+<html>
+  <head>
+<link rel="stylesheet" href="style.css">
+<title>Nationalratswahlen</title>
+  </head>
+  <body>
+    <article>
+    <header>
+      <h1>Vergleich Nationalratswahlen 2017 und 2013 </h1>
+      <p id="menu"><a href="#Visualisierung"> Visualisierung</a>
+        <a href="#Daten">Daten</a>
+        <a href="#Uber">&Uuml;ber </a>
+        <a href="#Team">Teammitglieder </a>
+        <a href="#Quellen">Quellen</a></p>
+    </header>
+    <main><h2 id="Visualisierung">Visualisierung</h2>
+
+
+    <figure><figcaption>Vergleich Nationalratswahlen 2017 und 2013 <br /><br /></figcaption><svg version="1.2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="graph" aria-labelledby="title" role="img" height = 400 width =100% id="ganzes">
+  <title id="title">Nationalratswahlergebnisse</title>
+<g class="grid x-grid" id="xGrid">
+  <line x1="90" x2="90" y1="5" y2="371"></line>
+</g>
+<g class="grid y-grid" id="yGrid">
+  <line x1="90" x2="785" y1="370" y2="370"></line>
+</g>
+  <g class="labels x-labels">
+  <text x="150" y="410" class="partei">&Ouml;VP</text>
+    <text x="135" y="390" class="jahre">2017</text>
+    <text x="170" y="390" class="jahre">2013</text>
+  <text x="250" y="410" class="partei">SP&Ouml;</text>
+    <text x="235" y="390" class="jahre">2017</text>
+    <text x="270" y="390" class="jahre">2013</text>
+  <text x="350" y="410" class="partei">FP&Ouml;</text>
+    <text x="335" y="390" class="jahre">2017</text>
+    <text x="370" y="390" class="jahre">2013</text>
+  <text x="450" y="410" class="partei">NEOS</text>
+    <text x="435" y="390" class="jahre">2017</text>
+    <text x="470" y="390" class="jahre">2013</text>
+  <text x="550" y="410" class="partei">Liste Pilz</text>
+    <text x="535" y="390" class="jahre">2017</text>
+    <text x="570" y="390" class="jahre">2013</text>
+<text x="650" y="410" class="partei">Die Gr&uuml;nen</text>
+    <text x="635" y="390" class="jahre">2017</text>
+    <text x="670" y="390" class="jahre">2013</text>
+<text x="750" y="410" class="partei">Sonstige</text>
+    <text x="735" y="390" class="jahre">2017</text>
+    <text x="770" y="390" class="jahre">2013</text>
+  <text x="400" y="450" class="label-title">Partei</text>
+</g>
+
+<g class="labels y-labels">
+  <text x="80" y="20">35%</text>
+  <text x="80" y="70">30%</text>
+  <text x="80" y="120">25%</text>
+  <text x="80" y="170">20%</text>
+  <text x="80" y="220">15%</text>
+  <text x="80" y="270">10%</text>
+  <text x="80" y="320">5%</text>
+  <text x="80" y="370">0%</text>
+  <text x="60" y="200" class="label-title">Prozent</text>
+</g>
+
+
+  <g class="bar" id="zahlen2017">
+    <rect width="30" height="315" y= "55" x="120" id="vp2017"><title>31.5%</title></rect>
+    <rect width="30" height="269" y="101" x="220" id="spoe"><title>26.9%</title></rect>
+    <rect width="30" height="260" y="110" x="320" id="fp2017"><title>26.0%</title></rect>
+    <rect width="30" height="53" y="317" x="420" id="neos"><title>5.3%</title></rect>
+    <rect width="30" height="44" y="326" x="520" id="pilz"><title>4.4%</title></rect>
+    <rect width="30" height="38" y="332" x="620" id="gruene"><title>3.8%</title></rect>
+    <rect width="30" height="23" y="347" x="720" id="sonstige"><title>2.3%</title></rect>
+  </g>
+  <g class="bar" id="zahlen2013">
+<rect width="30" height="0" y="0" x="155" id="vp2013"><title>24.0%</title></rect>
+<rect width="30" height="0" y="0" x="255" id="sp2013"><title>26.8%</title></rect>
+<rect width="30" height="0" y="0" x="355" id="fp2013"><title>20.5%</title></rect>
+<rect width="30" height="0" y="0" x="455" id="neos2013"><title>5.0%</title></rect>
+<rect width="30" height="0" y="0" x="655" id="gruen2013"><title>12.4%</title></rect>
+<rect width="30" height="0" y="0" x="755" id="sonstige2013"><title>2.0%</title></rect>
+
+  </g>
+</svg></figure>
+
+<button type="button" onclick=Show2017()>2017</button>
+<button type="button" onclick=Show2013()>2013</button>
+<button type="button" onclick=ShowAll()>Umkehren</button>
+<h2 id="Daten">Daten</h2>
+
+
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/script2.js"></script>
+
+  </body>
+<h2 id="Uber">&Uuml;ber</h2>
+<ul><li>&Uuml;berschrift</li>
+<li>2 Paragraphen Text<p>Im Rahmen der Lehrveranstaltung Scripting und Coding des Studiengangs Journalismus und Public Relations der FH JOANNEUM haben wir uns mit der Visualisierung von Wahlergebnissen beschäftigt. Genauer gesagt haben wir die Ergebnisse der Nationalratswahlen in Österreich aus den Jahren 2013 und 2017 verglichen.</p><p>Mit SVG-Grafiken erstellten wir ein Balkendiagramm, das die Möglichkeit bietet sich entweder das Jahr 2017 oder das Jahr 2013 oder auch beide Ergebnisse nebeneinander anzeigen zu lassen. Funktionen zur Berechnung der Werte werden mit einem Klick auf den Button ausgeführt, jegliches Layout wurde mit CSS festgelegt.</p></li>
+<li><a href="http://www.bmi.gv.at" target= "_blank">Bundesministerium für Inneres</a></li>
+<li>Bild</li>
+<li>Betonung</li>
+</ul>
+<h2 id="Team">Teammitglieder</h2>
+<ul><li>Ramona Arzberger - ramona.arzberger@edu.fh-joanneum.at</li>
+<li>Daniel Eberl daniel.eberl@edu.fh-joanneum.at</li>
+<li>Linda Schwarz - linda.schwarz@edu.fh-joanneum.at</li>
+<li>Marcel Yildiz - marcel.yildiz@edu.fh-joanneum.at</li></ul>
+<h2 id="Quellen">Quellenangabe (Liste)</h2>
+<ul><li>Verwendete Dateien: index.html, style.css, script2.js</li>
+<li>Code</li>
+<li>Datenquelle: http://wahl13.bmi.gv.at/</li>
+<li>Datenquelle: http://www.bmi.gv.at/412/Nationalratswahlen/Nationalratswahl_2017/start.aspx</li>
+<li>Bildquelle:.</li>
+</ul>
+
+</main>
+
+<footer>
+(Software Lizenz)<br />
+Copyright Team Fuchs<br />
+'Umgesetzt im Rahmen der LV SUC @ FH JOANNEUM'<br />
+Link zu <a href="https://github.com/PeterTheOne/scripting-und-coding-lv-fh-joanneum" target="_blank">https://github.com/PeterTheOne/scripting-und-coding-lv-fh-joanneum</a>
+
+</footer></article>
+
+
+
+
+
+</html>

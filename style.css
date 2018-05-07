@@ -1,0 +1,109 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+figcaption {font-style: italic; text-decoration: none; font-weight: bold;}
+
+.graph .labels.x-labels {
+  text-anchor: middle;
+}
+
+.graph .labels.y-labels {
+  text-anchor: end;
+}
+
+.graph {
+  height: 500px;
+  width: 800px;
+}
+
+.graph .grid {
+  stroke: #ccc;
+  stroke-dasharray: 0;
+  stroke-width: 1;
+}
+
+.labels {
+  font-size: 13px;
+}
+
+.label-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  fill: black;
+}
+
+.data {
+  fill: red;
+  stroke-width: 1;
+}
+.bar {
+  height: 2px;
+  transition: fill .3s ease;
+  cursor: pointer;
+  font-family: Helvetica, sans-serif;
+}
+.bar text {
+  color: black;
+}
+.jahre{font-size: 10px;}
+
+
+
+#fp2017{fill:#2255bb;}
+#fp2017:hover{fill:#0000cc;}
+#vp2017{fill:#55d9e6;}
+#vp2017:hover{fill: lightblue}
+#spoe{fill:darkred}
+#spoe:hover{fill:#992233;}
+#sp2013{fill:darkred}
+#sp2013:hover{fill:#992233;}
+#neos{fill:pink}
+#neos:hover{fill: #F781F3;}
+#neos2013{fill:pink}
+#neos2013:hover{fill: #F781F3;}
+#pilz{fill:yellow}
+#pilz:hover{fill: #F3F781;}
+#gruene{fill:green}
+#gruene:hover{fill:#4CAF50;}
+#gruen2013{fill:green}
+#gruen2013:hover{fill:#4CAF50;}
+#sonstige{fill:grey}
+#sonstige:hover{fill: #AAAAAA;}
+#sonstige2013{fill:grey}
+#sonstige2013:hover{fill: #AAAAAA;}
+#fp2013{fill: #2255bb;}
+#fp2013:hover{fill:#0000cc;}
+#vp2013{fill: #000000;}
+#vp2013:hover{fill: #444444;}
+
+
+button {
+  background-color: #4CAF50;
+  border-radius: 1px;
+  font-size: 14px;
+  color: white;
+  border: 1px solid #4CAF50;
+  padding: 10px 24px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+footer {bottom: 0;
+font-size: 12px;
+width: 100%;
+background-color: #EEEEEE;}
+
+a {text-decoration: none;
+color: white;}
+a:hover{color: black;}
+a:visited{color: black;}
+#menu {
+  word-spacing: 5em;
+  background-color: #4CAF50;
+height: 20px;
+padding: 4px;
+}
